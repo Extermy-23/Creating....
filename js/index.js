@@ -1,4 +1,4 @@
-let pasword = "andy230520"
+/*let pasword = "andy230520"
 let verification = prompt("write the password to continue browsing the web")
 let comprobar = verification
 
@@ -10,4 +10,37 @@ switch (comprobar) {
    default :
        alert("The pasword is incorrect")   
 
-}
+}*/
+
+
+
+
+
+(function(){
+
+
+    let pasword = "andy230520"
+
+    //document.formulario.password.value;
+
+    let comprobar = function (){
+
+          switch (document.formulario.password.value) {
+            case ('andy230520'):
+             
+                  alert("es correcta")
+
+                break;
+          
+            default:
+                alert("no es correcta")
+                break;
+          }
+
+    }
+
+    let btn = document.getElementById('btn');
+    btn.addEventListener("click", comprobar);
+
+
+    }())
