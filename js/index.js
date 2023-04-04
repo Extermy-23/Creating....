@@ -28,14 +28,14 @@ switch (comprobar) {
           switch (document.formulario.password.value) {
             case ('andy230520'):
              
-                  alert("es correcta")
+                   window.location.href = "https://professor-falken.com";
 
                 break;
           
             default:
                 alert("no es correcta")
                 break;
-          }
+          } 
 
     }
 
