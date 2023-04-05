@@ -16,7 +16,7 @@ switch (comprobar) {
 
 
 
-(function(){ /*
+(function(){ 
 
 
     let pasword = "andy230520"
@@ -41,6 +41,5 @@ switch (comprobar) {
 
     let btn = document.getElementById('btn');
     btn.addEventListener("click", comprobar);
-*/ 
-window.location.href = "https://professor-falken.com";
+   
     }())
