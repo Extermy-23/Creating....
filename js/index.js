@@ -3,7 +3,7 @@ let quest = confirm("Desea ser redirecionado a otra pagina?")
 switch (quest) {
     case (true):
             
-        window.location.href = "../paginas/practicasjs.html"
+        window.location.href = "paginas/practicasjs.html"
 
         break;
 
