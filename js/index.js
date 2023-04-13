@@ -1,31 +1,26 @@
-/*let pasword = "andy230520"
-let verification = prompt("write the password to continue browsing the web")
-let comprobar = verification
+let quest = confirm("Desea ser redirecionado a otra pagina?")
 
-switch (comprobar) {
+switch (quest) {
+    case (true):
+            
+        window.location.href = "../paginas/practicasjs.html"
 
-   case 'andy230520' :
-       alert("The pasword is correct")
-   break;
-   default :
-       alert("The pasword is incorrect")   
+        break;
 
-}*/
+    default:   
 
-
-
-
+        break;
+}
 
 (function(){ 
 
 
     let pasword = "andy230520"
 
-    //document.formulario.password.value;
 
     let comprobar = function (){
 
-          switch (document.formulario.password.value) {
+      /*    switch (document.formulario.password.value) {
             case ('andy230520'):
              
                    window.location.href = "https://professor-falken.com";
@@ -35,11 +30,26 @@ switch (comprobar) {
             default:
                 alert("no es correcta")
                 break;
-          } 
+          } */
+
+
+          if (document.formulario.password.value = "andy230520") {
+
+               alert("la contrasena es correcta")
+            
+          } else {
+             
+                
+
+          }
+           
 
     }
 
     let btn = document.getElementById('btn');
     btn.addEventListener("click", comprobar);
-   
-    }())
+
+}())
+
+
+
