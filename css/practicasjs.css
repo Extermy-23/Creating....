@@ -16,7 +16,8 @@ header h1 {
 }
 
 body{
-
+     
+     display: grid;
      grid-template-areas: "header header"
                           "ejercicios aside" ;
      grid-template-columns: 70% 30%;
@@ -63,6 +64,6 @@ aside {
 
 aside ul {
 
-     
+     text-decoration: none;
 
 }
