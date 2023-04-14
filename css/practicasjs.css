@@ -45,6 +45,7 @@ section article {
      box-shadow: 2px 2px black 10px ;
      margin-top: 40px;
      width: 70%;
+     border-radius: 7px;
 
 }
 
@@ -56,6 +57,7 @@ aside {
      border-bottom: 1px solid black;
      width: 90%;
      margin-right: 0px;
+     border-radius: 5px;
 
 }h2{
 
