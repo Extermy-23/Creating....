@@ -43,15 +43,18 @@ section article {
      border: 1px solid gray;
      box-shadow: 2px 2px black 10px ;
      margin-top: 40px;
-     width: 50%;
+     width: 70%;
 
 }
 
 aside {
 
      grid-area: aside;
-     border: 1px solid black;
-     width: 30%;
+     border-left: 1px solid black;
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+     width: 90%;
+     margin-right: 0px;
 
 }h2{
 
