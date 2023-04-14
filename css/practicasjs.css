@@ -67,6 +67,11 @@ aside {
 
 aside ul {
 
-     text-decoration: none;
+     list-style: none;
 
+}aside ul li {
+
+     margin-top: 10px;
+     font-weight: bold;
+      
 }
