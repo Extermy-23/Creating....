@@ -2,7 +2,7 @@
 
     padding: 0px;
     margin: 0px;
-    cursor: pointer;
+    cursor: default;
 
 }
 
@@ -50,6 +50,7 @@ aside {
 
      grid-area: aside;
      border: 1px solid black;
+     width: 30%;
 
 }h2{
 
