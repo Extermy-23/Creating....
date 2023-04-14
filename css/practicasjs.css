@@ -21,6 +21,7 @@ body{
      grid-template-areas: "header header"
                           "ejercicios aside" ;
      grid-template-columns: 70% 30%;
+     background: url("https://marketplace.canva.com/EAEK4dC2olw/1/0/1600w/canva-arco%C3%ADris-gradiente-rosa-y-naranja-fondo-virtual-para-zoom-c3PYha1JI9M.jpg")
 
 }
 
