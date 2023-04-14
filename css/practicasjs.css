@@ -57,7 +57,7 @@ aside {
      border-left: 1px solid black;
      border-top: 1px solid black;
      border-bottom: 1px solid black;
-     width: 800px;
+     width: 80%;
      margin-right: 0px;
      border-radius: 5px;
      box-shadow: 2px 2px 10px black ;
@@ -77,4 +77,8 @@ aside ul li {
      font-weight: bold;
      margin-left: 30%;
       
+}aside a {
+
+     color: black;
+
 }
