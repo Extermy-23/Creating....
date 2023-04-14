@@ -42,12 +42,12 @@ section article p {
 
 section article {
 
+     margin: auto;
      border: 1px solid gray;
      box-shadow: 2px 2px 10px black ;
      margin-top: 40px;
      width: 70%;
      border-radius: 7px;
-     margin: auto;
 
 }
 
